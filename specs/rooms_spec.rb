@@ -1,8 +1,8 @@
 require("minitest/autorun")
 require("minitest/rg")
-# require_relative("../drinks")
-# require_relative("../guests")
-# require_relative("../songs")
+require_relative("../drinks")
+require_relative("../guests")
+require_relative("../songs")
 require_relative("../rooms")
 
 class RoomsTest < MiniTest::Test
